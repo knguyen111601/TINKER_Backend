@@ -1,0 +1,55 @@
+2021-12-07 22:49:19 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-07 22:49:19 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-07 22:49:19 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-07 22:49:19 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-07 22:49:19 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-07 22:49:19 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-07 22:49:19 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-07 23:14:19 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-07 23:14:19 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-07 23:14:19 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-07 23:14:19 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-07 23:14:19 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-07 23:14:19 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-07 23:14:19 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-07 23:14:19 - INFO - "POST /auth/signup HTTP/1.1" 200 231
+2021-12-07 23:14:19 - INFO - "POST /user/pc HTTP/1.1" 302 15
+2021-12-07 23:14:19 - INFO - "POST /auth/login HTTP/1.1" 200 310
+2021-12-07 23:16:48 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 23:16:48 - ERROR - "GET /user/pc HTTP/1.1" 500 1038626
+2021-12-07 23:17:13 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-07 23:17:13 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-07 23:17:13 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-07 23:17:13 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-07 23:17:13 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-07 23:17:13 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-07 23:17:13 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-07 23:17:13 - INFO - "POST /auth/login HTTP/1.1" 200 310
+2021-12-07 23:17:32 - ERROR - ContainerError in 0 on line 0
+2021-12-07 23:17:32 - ERROR - "GET /user/pc HTTP/1.1" 500 968385
+2021-12-07 23:19:55 - ERROR - ContainerError in 0 on line 0
+2021-12-07 23:19:55 - ERROR - "POST /user/pc HTTP/1.1" 500 968417
+2021-12-07 23:20:54 - ERROR - JSONDecodeError in /Users/kennynguyen/.pyenv/versions/3.9.4/lib/python3.9/json/decoder.py on line 353
+2021-12-07 23:20:54 - ERROR - "POST /user/pc HTTP/1.1" 500 1041609
+2021-12-07 23:21:20 - ERROR - ContainerError in 0 on line 0
+2021-12-07 23:21:20 - ERROR - "POST /user/pc HTTP/1.1" 500 968320
+2021-12-07 23:22:31 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-07 23:22:31 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-07 23:22:31 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-07 23:22:31 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-07 23:22:31 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-07 23:22:31 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-07 23:22:31 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-07 23:22:34 - ERROR - ContainerError in 0 on line 0
+2021-12-07 23:22:34 - ERROR - "POST /user/pc HTTP/1.1" 500 968450
+2021-12-07 23:24:46 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-07 23:24:46 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-07 23:24:46 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-07 23:24:46 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-07 23:24:46 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-07 23:24:46 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-07 23:24:46 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-07 23:24:51 - ERROR - ContainerError in 0 on line 0
+2021-12-07 23:24:51 - ERROR - "POST /user/pc HTTP/1.1" 500 968450
+2021-12-07 23:25:40 - ERROR - ContainerError in 0 on line 0
+2021-12-07 23:25:40 - ERROR - "POST /user/pc HTTP/1.1" 500 968453
