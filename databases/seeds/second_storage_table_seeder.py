@@ -76,7 +76,7 @@ class SecondStorageTableSeeder(Seeder):
             "secondstorage_name": "blank",
             "secondstorage_brand": "blank",
             "secondstorage_type": "blank",
-            "secondstorage_size": "blank",
+            "secondstorage_size": 0,
             "secondstorage_price": 0,
             "secondstorage_img": "blank"
         })

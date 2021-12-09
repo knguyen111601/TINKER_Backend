@@ -77,7 +77,7 @@ class StorageTableSeeder(Seeder):
             "storage_name": "blank",
             "storage_brand": "blank",
             "storage_type": "blank",
-            "storage_size": "blank",
+            "storage_size": 0,
             "storage_price": 0,
             "storage_img": "blank"
         })

@@ -77,7 +77,7 @@ class ThirdStorageTableSeeder(Seeder):
             "thirdstorage_name": "blank",
             "thirdstorage_brand": "blank",
             "thirdstorage_type": "blank",
-            "thirdstorage_size": "blank",
+            "thirdstorage_size": 0,
             "thirdstorage_price": 0,
             "thirdstorage_img": "blank"
         })
