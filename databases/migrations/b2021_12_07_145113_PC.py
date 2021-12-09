@@ -8,8 +8,6 @@ class PC(Migration):
         """
         Run the migrations.
         """
-        self.schema.drop_table("pcs")
-
         with self.schema.create("pcs") as table:
             table.increments("id")
             
