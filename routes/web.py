@@ -24,7 +24,8 @@ ROUTES = [
     # Case
     RouteGroup([
         Get("/", "CaseController@index").name("index"),
-        Get("/@id", "CaseController@show").name("show")
+        Get("/@id", "CaseController@show").name("show"),
+        Delete("/@id", "CaseController@destroy").name("destroy")
     ], prefix="/cases", name="cases"),
 
     # Motherboard
