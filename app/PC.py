@@ -2,7 +2,6 @@
 
 from masoniteorm.models import Model
 from masoniteorm.relationships import has_one
-from project4.REALTEST.app.Misc import Misc
 
 class PC(Model):
     """PC Model."""

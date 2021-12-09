@@ -16,9 +16,9 @@ ROUTES = [
     RouteGroup([
         Get("/", "PCOwnerController@get_user_pcs").name("get_pcs"),
         Post("/", "PCOwnerController@create").name("create"),
-        # Get("/@id", "PCOwnerController@show").name("show"),
-        # Put("/@id", "PCOwnerController@update").name("update"),
-        # Delete("/@id", "PCOwnerController@destroy").name("destroy")
+        Get("/@id", "PCOwnerController@show").name("show"),
+        Put("/@id", "PCOwnerController@update").name("update"),
+        Delete("/@id", "PCOwnerController@destroy").name("destroy")
     ], prefix="/pcs", middleware=["auth"]),
 
     # Case
@@ -72,7 +72,8 @@ ROUTES = [
         # Storage2
     RouteGroup([
         Get("/", "SecondStorageController@index").name("index"),
-        Get("/@id", "SecondStorageController@show").name("show")
+        Get("/@id", "SecondStorageController@show").name("show"),
+        Delete("/@id", "SecondStorageController@destroy").name("destroy")
     ], prefix="/secondstorages", name="secondstorages"),
 
         # Storage3

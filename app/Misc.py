@@ -6,7 +6,7 @@ from masoniteorm.relationships import has_many
 
 class Misc(Model):
     """Misc Model."""
-    __table__ = "miscs"
+    __table__="miscs"
     @has_many("id", "misc_id")
     def pcs(self):
         from app.PC import PC
