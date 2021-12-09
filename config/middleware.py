@@ -35,3 +35,11 @@ ROUTE_MIDDLEWARE = {
     "verified": VerifyEmailMiddleware,
     "guard": GuardMiddleware,
 }
+
+CORS = {
+    'Access-Control-Allow-Origin': "*",
+    "Access-Control-Allow-Methods": "*",
+    "Access-Control-Allow-Headers": "*",
+    "Access-Control-Max-Age": "3600",
+    "Access-Control-Allow-Credentials": "true"
+}
