@@ -67,7 +67,8 @@ ROUTES = [
     # Storage
     RouteGroup([
         Get("/", "StorageController@index").name("index"),
-        Get("/@id", "StorageController@show").name("show")
+        Get("/@id", "StorageController@show").name("show"),
+        Delete("/@id", "StorageController@destroy").name("destroy")
     ], prefix="/storages", name="storages"),
 
         # Storage2
@@ -80,7 +81,8 @@ ROUTES = [
         # Storage3
     RouteGroup([
         Get("/", "ThirdStorageController@index").name("index"),
-        Get("/@id", "ThirdStorageController@show").name("show")
+        Get("/@id", "ThirdStorageController@show").name("show"),
+        Delete("/@id", "ThirdStorageController@destroy").name("destroy")
     ], prefix="/thirdstorages", name="thirdstorages"),
 
         # Misc

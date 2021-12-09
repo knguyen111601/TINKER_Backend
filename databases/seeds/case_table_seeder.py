@@ -115,6 +115,12 @@ class CaseTableSeeder(Seeder):
         #     "case_price": 175,
         #     "case_img": "https://i.imgur.com/RSZDJkg.jpg",
         # })
+        Case.create({
+            "case_name": "blank",
+            "case_type": "blank",
+            "case_price": 0,
+            "case_img": "blank",
+        })
 
         Case.create({
             "case_name": "Lian Li O11 Dynamic (Black)",
@@ -144,9 +150,3 @@ class CaseTableSeeder(Seeder):
             "case_img": "https://i.imgur.com/miw2ZDQ.jpg",
         })
 
-        Case.create({
-            "case_name": "blank",
-            "case_type": "blank",
-            "case_price": 0,
-            "case_img": "blank",
-        })

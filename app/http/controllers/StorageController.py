@@ -45,5 +45,7 @@ class StorageController(Controller):
         """Delete an existing resource listing
         ex. Delete().route("/destroy", StorageController)
         """
-
-        pass
+        id = self.request.param("id")
+        storage = Storage.where("id", id)
+        Storage.where("id", id).delete()
+        return storage

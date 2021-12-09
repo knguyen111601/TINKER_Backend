@@ -61,5 +61,7 @@ class ThirdStorageController(Controller):
         """Delete an existing resource listing
         ex. Delete().route("/destroy", ThirdControllerController)
         """
-
-        pass
+        id = self.request.param("id")
+        storage = ThirdStorage.where("id", id)
+        ThirdStorage.where("id", id).delete()
+        return storage

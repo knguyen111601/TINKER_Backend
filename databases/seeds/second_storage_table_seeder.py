@@ -63,20 +63,20 @@ class SecondStorageTableSeeder(Seeder):
         #     "secondstorage_img": "https://i.imgur.com/N2CWMLW.jpg"
         # })
 
-        SecondStorage.create({
-            "secondstorage_name": "Crucial MX500",
-            "secondstorage_brand": "Crucial",
-            "secondstorage_type": "SATA SSD",
-            "secondstorage_size": "1TB",
-            "secondstorage_price": 99,
-            "secondstorage_img": "https://i.imgur.com/MUvepKg.jpg"
-        })
+        # SecondStorage.create({
+        #     "secondstorage_name": "Crucial MX500",
+        #     "secondstorage_brand": "Crucial",
+        #     "secondstorage_type": "SATA SSD",
+        #     "secondstorage_size": "1TB",
+        #     "secondstorage_price": 99,
+        #     "secondstorage_img": "https://i.imgur.com/MUvepKg.jpg"
+        # })
 
         SecondStorage.create({
             "secondstorage_name": "blank",
             "secondstorage_brand": "blank",
             "secondstorage_type": "blank",
-            "secondstorage_size": 0,
+            "secondstorage_size": "0",
             "secondstorage_price": 0,
             "secondstorage_img": "blank"
         })

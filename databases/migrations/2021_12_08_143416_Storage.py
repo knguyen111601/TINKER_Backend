@@ -8,12 +8,14 @@ class Storage(Migration):
         """
         Run the migrations.
         """
+        self.schema.drop_table("storages")
+
         with self.schema.create("storages") as table:
             table.increments("id")
             table.string("storage_name")
             table.string("storage_brand")
             table.string("storage_type")
-            table.integer("storage_size")
+            table.string("storage_size")
             table.integer("storage_price")
             table.string("storage_img")
             table.timestamps()
