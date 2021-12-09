@@ -8,8 +8,6 @@ class ThirdStorage(Migration):
         """
         Run the migrations.
         """
-        self.schema.drop_table("thirdstorages")
-
         with self.schema.create("thirdstorages") as table:
             table.increments("id")
             table.string("thirdstorage_name")
