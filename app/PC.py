@@ -2,6 +2,7 @@
 
 from masoniteorm.models import Model
 from masoniteorm.relationships import has_one
+from project4.REALTEST.app.Misc import Misc
 
 class PC(Model):
     """PC Model."""
@@ -68,19 +69,19 @@ class PC(Model):
         return ThirdStorage
 
     # misc
-    # @has_one("id", "misc_id")
-    # def misc(self):
-    #     from app.Misc import Misc
-    #     return Misc
+    @has_one("id", "misc_id")
+    def misc(self):
+        from app.Misc import Misc
+        return Misc
 
     # misc2
-    # @has_one("id", "misc2_id")
-    # def misc2(self):
-    #     from app.Misc2 import Misc2
-    #     return Misc2
+    @has_one("id", "secondmisc_id")
+    def secondmisc(self):
+        from app.SecondMisc import SecondMisc
+        return SecondMisc
 
     # misc3
-    # @has_one("id", "misc3_id")
-    # def misc3(self):
-    #     from app.Misc3 import Misc3
-    #     return Misc3
+    @has_one("id", "thirdmisc_id")
+    def thirdmisc(self):
+        from app.ThirdMisc import ThirdMisc
+        return ThirdMisc

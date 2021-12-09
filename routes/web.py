@@ -8,14 +8,17 @@ ROUTES = [
     RouteGroup([
         Post("/login", "AuthController@login").name("login"),
         Post("/signup", "AuthController@signup").name("signup"),
-        Post("/logout", "AuthController@logout").name("logout"),
+        Post("/logout", "AuthController@logout").name("logout")
     ], prefix="/auth"),
 
     # PC
 
     RouteGroup([
         Get("/", "PCOwnerController@get_user_pcs").name("get_pcs"),
-        Post("/", "PCOwnerController@create").name("create")
+        Post("/", "PCOwnerController@create").name("create"),
+        # Get("/@id", "PCOwnerController@show").name("show"),
+        # Put("/@id", "PCOwnerController@update").name("update"),
+        # Delete("/@id", "PCOwnerController@destroy").name("destroy")
     ], prefix="/pcs", middleware=["auth"]),
 
     # Case
@@ -66,16 +69,33 @@ ROUTES = [
         Get("/@id", "StorageController@show").name("show")
     ], prefix="/storages", name="storages"),
 
-        # Storage
+        # Storage2
     RouteGroup([
         Get("/", "SecondStorageController@index").name("index"),
         Get("/@id", "SecondStorageController@show").name("show")
     ], prefix="/secondstorages", name="secondstorages"),
 
-        # Storage
+        # Storage3
     RouteGroup([
         Get("/", "ThirdStorageController@index").name("index"),
         Get("/@id", "ThirdStorageController@show").name("show")
     ], prefix="/thirdstorages", name="thirdstorages"),
 
+        # Misc
+    RouteGroup([
+        Get("/", "MiscController@index").name("index"),
+        Get("/@id", "MiscController@show").name("show")
+    ], prefix="/miscs", name="miscs"),
+
+        # Misc2
+    RouteGroup([
+        Get("/", "SecondMiscController@index").name("index"),
+        Get("/@id", "SecondMiscController@show").name("show")
+    ], prefix="/secondmiscs", name="secondmiscs"),
+
+        # Misc3
+    RouteGroup([
+        Get("/", "ThirdMiscController@index").name("index"),
+        Get("/@id", "ThirdMiscController@show").name("show")
+    ], prefix="/thirdmiscs", name="thirdmiscs")
 ]
