@@ -61,5 +61,7 @@ class CaseController(Controller):
         """Delete an existing resource listing
         ex. Delete().route("/destroy", CaseController)
         """
-
-        pass
+        id = self.request.param("id")
+        case = Case.where("id", id).get()
+        Case.where("id", id).delete()
+        return case
