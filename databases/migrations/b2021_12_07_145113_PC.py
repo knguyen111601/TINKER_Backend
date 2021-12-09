@@ -8,6 +8,8 @@ class PC(Migration):
         """
         Run the migrations.
         """
+        self.schema.drop_table("pcs")
+
         with self.schema.create("pcs") as table:
             table.increments("id")
             
@@ -52,7 +54,7 @@ class PC(Migration):
 
             # Storage2
             table.integer("thirdstorage_id").default(8)
-            table.foreign("thirdstorage_id").references("id").on("thirdstorage")
+            table.foreign("thirdstorage_id").references("id").on("thirdstorages")
 
 
             #misc
