@@ -66,4 +66,16 @@ ROUTES = [
         Get("/@id", "StorageController@show").name("show")
     ], prefix="/storages", name="storages"),
 
+        # Storage
+    RouteGroup([
+        Get("/", "SecondStorageController@index").name("index"),
+        Get("/@id", "SecondStorageController@show").name("show")
+    ], prefix="/secondstorages", name="secondstorages"),
+
+        # Storage
+    RouteGroup([
+        Get("/", "ThirdStorageController@index").name("index"),
+        Get("/@id", "ThirdStorageController@show").name("show")
+    ], prefix="/thirdstorages", name="thirdstorages"),
+
 ]

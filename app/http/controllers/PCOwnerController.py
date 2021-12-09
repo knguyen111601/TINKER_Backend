@@ -15,7 +15,7 @@ class PCOwnerController(Controller):
 
     def get_user_pcs(self):
         user = self.request.user()
-        return PC.joins("cpu", "case", "motherboard", "ram", "gpu", "cooler", "psu", "storage").all()
+        return PC.joins("cpu", "case", "motherboard", "ram", "gpu", "cooler", "psu", "storage", "secondstorage", "thirdstorage").all()
 
     def create(self):
         pc_name = self.request.input("pc_name")
@@ -27,7 +27,11 @@ class PCOwnerController(Controller):
         gpu_id = self.request.input("gpu_id")
         psu_id = self.request.input("psu_id")
         storage_id = self.request.input("storage_id")
+        secondstorage_id = self.request.input("secondstorage_id")
+        thirdstorage_id = self.request.input("thirdstorage_id")
         misc_id = self.request.input("misc_id")
+        secondmisc_id = self.request.input("secondmisc_id")
+        thirdmisc_id = self.request.input("thirdmisc_id")
         user = self.request.user()
         pc = PC.create({
             "pc_name": pc_name,
@@ -39,7 +43,11 @@ class PCOwnerController(Controller):
             "gpu_id": gpu_id,
             "psu_id": psu_id,
             "storage_id":storage_id,
+            "secondstorage_id":secondstorage_id,
+            "thirdstorage_id":thirdstorage_id,
             "misc_id": misc_id,
+            "secondmisc_id": secondmisc_id,
+            "thirdmisc_id": thirdmisc_id,
             "user_id": user["id"]
         })
         return pc

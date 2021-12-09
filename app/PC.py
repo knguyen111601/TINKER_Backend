@@ -55,8 +55,32 @@ class PC(Model):
         from app.Storage import Storage
         return Storage
 
+    # Storage 2
+    @has_one("id", "secondstorage_id")
+    def secondstorage(self):
+        from app.SecondStorage import SecondStorage
+        return SecondStorage
+
+    # Storage 3
+    @has_one("id", "thirdstorage_id")
+    def thirdstorage(self):
+        from app.ThirdStorage import ThirdStorage
+        return ThirdStorage
+
     # misc
     # @has_one("id", "misc_id")
     # def misc(self):
     #     from app.Misc import Misc
     #     return Misc
+
+    # misc2
+    # @has_one("id", "misc2_id")
+    # def misc2(self):
+    #     from app.Misc2 import Misc2
+    #     return Misc2
+
+    # misc3
+    # @has_one("id", "misc3_id")
+    # def misc3(self):
+    #     from app.Misc3 import Misc3
+    #     return Misc3
