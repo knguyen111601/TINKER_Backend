@@ -44,7 +44,7 @@ class PC(Migration):
 
             # Storage
             table.integer("storage_id").default(8)
-            table.foreign("storage_id").references("id").on("storage")
+            table.foreign("storage_id").references("id").on("storages")
 
             # Storage2
             table.integer("secondstorage_id").default(8)
