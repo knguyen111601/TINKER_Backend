@@ -11,10 +11,59 @@ ROUTES = [
         Post("/logout", "AuthController@logout").name("logout"),
     ], prefix="/auth"),
 
-    RouteGroup([
-        Get("/pc", "PCOwnerController@get_user_pcs").name("get_pcs"),
-        Post("/pc", "PCOwnerController@create").name("create")
-    ], prefix="/user", middleware=["auth"])
+    # PC
 
+    RouteGroup([
+        Get("/", "PCOwnerController@get_user_pcs").name("get_pcs"),
+        Post("/", "PCOwnerController@create").name("create")
+    ], prefix="/pcs", middleware=["auth"]),
+
+    # Case
+    RouteGroup([
+        Get("/", "CaseController@index").name("index"),
+        Get("/@id", "CaseController@show").name("show")
+    ], prefix="/cases", name="cases"),
+
+    # Motherboard
+    RouteGroup([
+        Get("/", "MotherboardController@index").name("index"),
+        Get("/@id", "MotherboardController@show").name("show")
+    ], prefix="/motherboards", name="motherboards"),
+
+    # Cooler
+    RouteGroup([
+        Get("/", "CoolerController@index").name("index"),
+        Get("/@id", "CoolerController@show").name("show")
+    ], prefix="/coolers", name="coolers"),
+
+    # CPUs
+    RouteGroup([
+        Get("/", "CPUController@index").name("index"),
+        Get("/@id", "CPUController@show").name("show")
+    ], prefix="/cpus", name="cpus"),
+
+    # RAM
+    RouteGroup([
+        Get("/", "RAMController@index").name("index"),
+        Get("/@id", "RAMController@show").name("show")
+    ], prefix="/ram", name="ram"),
+
+    # GPU
+    RouteGroup([
+        Get("/", "GPUController@index").name("index"),
+        Get("/@id", "GPUController@show").name("show")
+    ], prefix="/gpus", name="gpus"),
+
+    # PSU
+    RouteGroup([
+        Get("/", "PSUController@index").name("index"),
+        Get("/@id", "PSUController@show").name("show")
+    ], prefix="/psus", name="psus"),
+
+    # Storage
+    RouteGroup([
+        Get("/", "StorageController@index").name("index"),
+        Get("/@id", "StorageController@show").name("show")
+    ], prefix="/storages", name="storages"),
 
 ]

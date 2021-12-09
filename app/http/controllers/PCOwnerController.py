@@ -10,11 +10,12 @@ class PCOwnerController(Controller):
     """
 
     def __init__(self, request: Request):
-        self.request = Request
+        self.request = request
 
 
     def get_user_pcs(self):
-        return self.request.user().pcs
+        user = self.request.user()
+        return PC.joins("cpu", "case", "motherboard", "ram", "gpu", "cooler", "psu", "storage").all()
 
     def create(self):
         pc_name = self.request.input("pc_name")
@@ -25,6 +26,7 @@ class PCOwnerController(Controller):
         ram_id = self.request.input("ram_id")
         gpu_id = self.request.input("gpu_id")
         psu_id = self.request.input("psu_id")
+        storage_id = self.request.input("storage_id")
         misc_id = self.request.input("misc_id")
         user = self.request.user()
         pc = PC.create({
@@ -36,6 +38,7 @@ class PCOwnerController(Controller):
             "ram_id": ram_id,
             "gpu_id": gpu_id,
             "psu_id": psu_id,
+            "storage_id":storage_id,
             "misc_id": misc_id,
             "user_id": user["id"]
         })

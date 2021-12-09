@@ -53,3 +53,612 @@
 2021-12-07 23:24:51 - ERROR - "POST /user/pc HTTP/1.1" 500 968450
 2021-12-07 23:25:40 - ERROR - ContainerError in 0 on line 0
 2021-12-07 23:25:40 - ERROR - "POST /user/pc HTTP/1.1" 500 968453
+2021-12-08 16:27:57 - INFO - "GET / HTTP/1.1" 200 1219
+2021-12-08 16:27:57 - INFO - "GET /static/style.css HTTP/1.1" 304 0
+2021-12-08 16:27:57 - WARNING - "GET /auth/login HTTP/1.1" 405 1554
+2021-12-08 16:27:57 - WARNING - "PUT /auth/login HTTP/1.1" 405 1554
+2021-12-08 16:27:57 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 16:27:57 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 16:27:57 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 16:27:57 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 16:27:57 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 16:27:57 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 16:27:57 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 16:27:57 - INFO - "POST /auth/login HTTP/1.1" 200 310
+2021-12-08 16:30:21 - ERROR - QueryException in 0 on line 0
+2021-12-08 16:30:21 - ERROR - "POST /user/pc HTTP/1.1" 500 986539
+2021-12-08 16:30:48 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 16:30:48 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 16:30:48 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 16:30:48 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 16:30:48 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 16:30:48 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 16:30:48 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 16:30:51 - ERROR - QueryException in 0 on line 0
+2021-12-08 16:30:51 - ERROR - "POST /user/pc HTTP/1.1" 500 986536
+2021-12-08 16:31:13 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 16:31:13 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 16:31:13 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 16:31:13 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 16:31:13 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 16:31:13 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 16:31:13 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 16:31:19 - ERROR - QueryException in 0 on line 0
+2021-12-08 16:31:19 - ERROR - "POST /user/pc HTTP/1.1" 500 986539
+2021-12-08 16:34:18 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 16:34:18 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 16:34:18 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 16:34:18 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 16:34:18 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 16:34:18 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 16:34:18 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 16:34:45 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 16:34:45 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 16:34:45 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 16:34:45 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 16:34:45 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 16:34:45 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 16:34:45 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 16:35:29 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 16:35:29 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 16:35:29 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 16:35:29 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 16:35:29 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 16:35:29 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 16:35:29 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 16:35:40 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 16:35:40 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 16:35:40 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 16:35:40 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 16:35:40 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 16:35:40 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 16:35:40 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 16:35:40 - INFO - "POST /user/pc HTTP/1.1" 200 274
+2021-12-08 16:35:40 - INFO - "GET /user/pc HTTP/1.1" 200 248
+2021-12-08 16:35:40 - INFO - "GET /user/pc HTTP/1.1" 302 15
+2021-12-08 16:35:40 - WARNING - "GET /auth/login HTTP/1.1" 405 1554
+2021-12-08 16:38:44 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 16:38:44 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 16:38:44 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 16:38:44 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 16:38:44 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 16:38:44 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 16:38:44 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 16:38:52 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 16:38:52 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 16:38:52 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 16:38:52 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 16:38:52 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 16:38:52 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 16:38:52 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 16:47:15 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 16:47:15 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 16:47:15 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 16:47:15 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 16:47:15 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 16:47:15 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 16:47:15 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 16:47:15 - INFO - "GET /cpus HTTP/1.1" 200 4119
+2021-12-08 16:47:15 - INFO - "POST /user/pc HTTP/1.1" 200 295
+2021-12-08 16:47:15 - INFO - "GET /cpus HTTP/1.1" 200 4119
+2021-12-08 16:52:57 - ERROR - AttributeError in /Users/kennynguyen/Development/seir_penguin/projects/project4/REALTEST/app/http/controllers/PCOwnerController.py on line 17
+2021-12-08 16:52:57 - ERROR - "GET /user/pc HTTP/1.1" 500 1045138
+2021-12-08 16:53:57 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 16:53:57 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 16:53:57 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 16:53:57 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 16:53:57 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 16:53:57 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 16:53:57 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 16:53:57 - INFO - "GET /user/pc HTTP/1.1" 200 265
+2021-12-08 16:53:57 - INFO - "POST /user/pc HTTP/1.1" 200 295
+2021-12-08 16:53:57 - INFO - "GET /user/pc HTTP/1.1" 200 530
+2021-12-08 16:53:57 - INFO - "GET /user/pc HTTP/1.1" 302 15
+2021-12-08 16:53:57 - WARNING - "GET /auth/login HTTP/1.1" 405 1554
+2021-12-08 16:53:57 - INFO - "GET /favicon.ico HTTP/1.1" 304 0
+2021-12-08 16:53:57 - INFO - "GET /cpus HTTP/1.1" 200 4119
+2021-12-08 17:23:48 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 17:23:48 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 17:23:48 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 17:23:48 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 17:23:48 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 17:23:48 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 17:23:48 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 17:23:48 - INFO - "GET /user/pc HTTP/1.1" 200 530
+2021-12-08 17:27:08 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 17:27:08 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 17:27:08 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 17:27:08 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 17:27:08 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 17:27:08 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 17:27:08 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 17:27:12 - ERROR - AttributeError in 0 on line 0
+2021-12-08 17:27:12 - ERROR - "GET /user/pc HTTP/1.1" 500 1054711
+2021-12-08 17:29:32 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 17:29:32 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 17:29:32 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 17:29:32 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 17:29:32 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 17:29:32 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 17:29:32 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 17:29:32 - INFO - "GET /user/pc HTTP/1.1" 200 724
+2021-12-08 17:36:11 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 17:36:11 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 17:36:11 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 17:36:11 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 17:36:11 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 17:36:11 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 17:36:11 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 17:36:14 - ERROR - NameError in /Users/kennynguyen/Development/seir_penguin/projects/project4/REALTEST/app/http/controllers/PCOwnerController.py on line 18
+2021-12-08 17:36:14 - ERROR - "GET /user/pc HTTP/1.1" 500 1032959
+2021-12-08 17:36:31 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 17:36:31 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 17:36:31 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 17:36:31 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 17:36:31 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 17:36:31 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 17:36:31 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 17:36:32 - ERROR - ContainerError in 0 on line 0
+2021-12-08 17:36:57 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 17:36:57 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 17:36:57 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 17:36:57 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 17:36:57 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 17:36:57 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 17:36:57 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 17:36:59 - ERROR - ContainerError in 0 on line 0
+2021-12-08 17:37:15 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 17:37:15 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 17:37:15 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 17:37:15 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 17:37:15 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 17:37:15 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 17:37:15 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 17:37:15 - INFO - "GET /user/pc HTTP/1.1" 200 724
+2021-12-08 17:37:15 - INFO - "GET /cpus HTTP/1.1" 200 4119
+2021-12-08 17:37:15 - INFO - "GET /favicon.ico HTTP/1.1" 304 0
+2021-12-08 17:37:15 - INFO - "GET /user/pc HTTP/1.1" 302 15
+2021-12-08 17:37:15 - WARNING - "GET /auth/login HTTP/1.1" 405 1554
+2021-12-08 17:48:16 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 17:48:16 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 17:48:16 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 17:48:16 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 17:48:16 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 17:48:16 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 17:48:16 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 17:48:20 - ERROR - ContainerError in 0 on line 0
+2021-12-08 17:48:48 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 17:48:48 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 17:48:48 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 17:48:48 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 17:48:48 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 17:48:48 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 17:48:48 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 17:48:51 - ERROR - ContainerError in 0 on line 0
+2021-12-08 17:49:19 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 17:49:19 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 17:49:19 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 17:49:19 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 17:49:19 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 17:49:19 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 17:49:19 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 17:49:22 - ERROR - ContainerError in 0 on line 0
+2021-12-08 17:49:42 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 17:49:42 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 17:49:42 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 17:49:42 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 17:49:42 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 17:49:42 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 17:49:42 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 17:49:44 - ERROR - ContainerError in 0 on line 0
+2021-12-08 17:49:44 - ERROR - "GET /user/pc HTTP/1.1" 500 968339
+2021-12-08 17:49:56 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 17:49:56 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 17:49:56 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 17:49:56 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 17:49:56 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 17:49:56 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 17:49:56 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 17:49:58 - ERROR - ContainerError in 0 on line 0
+2021-12-08 17:51:44 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 17:51:44 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 17:51:44 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 17:51:44 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 17:51:44 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 17:51:44 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 17:51:44 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 17:51:46 - ERROR - NameError in /Users/kennynguyen/Development/seir_penguin/projects/project4/REALTEST/app/http/controllers/PCOwnerController.py on line 19
+2021-12-08 17:51:46 - ERROR - "GET /user/pc HTTP/1.1" 500 973549
+2021-12-08 17:53:12 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 17:53:12 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 17:53:12 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 17:53:12 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 17:53:12 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 17:53:12 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 17:53:12 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 17:53:12 - INFO - "GET /user/pc HTTP/1.1" 200 724
+2021-12-08 17:53:25 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 17:53:25 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 17:53:25 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 17:53:25 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 17:53:25 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 17:53:25 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 17:53:25 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 17:53:26 - ERROR - ContainerError in 0 on line 0
+2021-12-08 17:54:02 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 17:54:02 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 17:54:02 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 17:54:02 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 17:54:02 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 17:54:02 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 17:54:02 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 17:54:02 - INFO - "GET /user/pc HTTP/1.1" 200 724
+2021-12-08 17:56:15 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 17:56:15 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 17:56:15 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 17:56:15 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 17:56:15 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 17:56:15 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 17:56:15 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 18:16:53 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 18:16:53 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 18:16:53 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 18:16:53 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 18:16:53 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 18:16:53 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 18:16:53 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 18:16:53 - INFO - "GET /cases HTTP/1.1" 200 3363
+2021-12-08 18:17:32 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 18:17:32 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 18:17:32 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 18:17:32 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 18:17:32 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 18:17:32 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 18:17:32 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 18:17:32 - INFO - "POST /user/pc HTTP/1.1" 200 291
+2021-12-08 18:17:32 - INFO - "GET /user/pc HTTP/1.1" 200 483
+2021-12-08 18:18:55 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 18:18:55 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 18:18:55 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 18:18:55 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 18:18:55 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 18:18:55 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 18:18:55 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 18:18:57 - ERROR - AttributeError in 0 on line 0
+2021-12-08 18:18:57 - ERROR - "GET /user/pc HTTP/1.1" 500 1054794
+2021-12-08 18:19:10 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 18:19:10 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 18:19:10 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 18:19:10 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 18:19:10 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 18:19:10 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 18:19:10 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 18:19:10 - INFO - "GET /user/pc HTTP/1.1" 200 483
+2021-12-08 18:21:23 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 18:21:23 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 18:21:23 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 18:21:23 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 18:21:23 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 18:21:23 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 18:21:23 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 18:25:17 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 18:25:17 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 18:25:17 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 18:25:17 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 18:25:17 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 18:25:17 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 18:25:17 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 18:25:17 - INFO - "GET /motherboards HTTP/1.1" 200 2
+2021-12-08 18:48:15 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 18:48:15 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 18:48:15 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 18:48:15 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 18:48:15 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 18:48:15 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 18:48:15 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 18:48:15 - INFO - "GET /motherboards HTTP/1.1" 200 5006
+2021-12-08 18:53:20 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 18:53:20 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 18:53:20 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 18:53:20 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 18:53:20 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 18:53:20 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 18:53:20 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 18:55:59 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 18:55:59 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 18:55:59 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 18:55:59 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 18:55:59 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 18:55:59 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 18:55:59 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 18:55:59 - INFO - "GET /coolers HTTP/1.1" 200 2
+2021-12-08 18:58:31 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 18:58:31 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 18:58:31 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 18:58:31 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 18:58:31 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 18:58:31 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 18:58:31 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 18:58:45 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 18:58:45 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 18:58:45 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 18:58:45 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 18:58:45 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 18:58:45 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 18:58:45 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 19:04:02 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 19:04:02 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 19:04:02 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 19:04:02 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 19:04:02 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 19:04:02 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 19:04:02 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 19:21:26 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 19:21:26 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 19:21:26 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 19:21:26 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 19:21:26 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 19:21:26 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 19:21:26 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 19:21:26 - INFO - "GET /coolers HTTP/1.1" 200 5091
+2021-12-08 19:22:21 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 19:22:21 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 19:22:21 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 19:22:21 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 19:22:21 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 19:22:21 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 19:22:21 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 19:22:21 - INFO - "POST /user/pc HTTP/1.1" 200 283
+2021-12-08 19:22:53 - ERROR - ModuleNotFoundError in /Users/kennynguyen/Development/seir_penguin/projects/project4/REALTEST/app/PC.py on line 61
+2021-12-08 19:22:53 - ERROR - "GET /user/pc HTTP/1.1" 500 1043890
+2021-12-08 19:23:24 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 19:23:24 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 19:23:24 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 19:23:24 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 19:23:24 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 19:23:24 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 19:23:24 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 19:23:29 - ERROR - AttributeError in 0 on line 0
+2021-12-08 19:23:29 - ERROR - "GET /user/pc HTTP/1.1" 500 1054977
+2021-12-08 19:24:24 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 19:24:24 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 19:24:24 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 19:24:24 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 19:24:24 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 19:24:24 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 19:24:24 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 19:24:26 - ERROR - AttributeError in 0 on line 0
+2021-12-08 19:24:26 - ERROR - "GET /user/pc HTTP/1.1" 500 1054985
+2021-12-08 19:25:13 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 19:25:13 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 19:25:13 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 19:25:13 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 19:25:13 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 19:25:13 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 19:25:13 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 19:25:36 - ERROR - AttributeError in 0 on line 0
+2021-12-08 19:25:38 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 19:25:38 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 19:25:38 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 19:25:38 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 19:25:38 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 19:25:38 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 19:25:38 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 19:25:38 - INFO - "GET /user/pc HTTP/1.1" 200 665
+2021-12-08 19:48:54 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 19:48:54 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 19:48:54 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 19:48:54 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 19:48:54 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 19:48:54 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 19:48:54 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 19:48:54 - INFO - "GET /user/pc HTTP/1.1" 200 1448
+2021-12-08 19:49:10 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 19:49:10 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 19:49:10 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 19:49:10 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 19:49:10 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 19:49:10 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 19:49:10 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 19:49:10 - INFO - "GET /user/pc HTTP/1.1" 200 665
+2021-12-08 19:49:28 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 19:49:28 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 19:49:28 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 19:49:28 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 19:49:28 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 19:49:28 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 19:49:28 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 19:49:29 - ERROR - AttributeError in 0 on line 0
+2021-12-08 19:49:29 - ERROR - "GET /user/pc HTTP/1.1" 500 1054977
+2021-12-08 19:49:43 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 19:49:43 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 19:49:43 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 19:49:43 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 19:49:43 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 19:49:43 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 19:49:43 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 19:49:43 - INFO - "GET /user/pc HTTP/1.1" 200 665
+2021-12-08 19:54:43 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 19:54:43 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 19:54:43 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 19:54:43 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 19:54:43 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 19:54:43 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 19:54:43 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 19:58:27 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 19:58:27 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 19:58:27 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 19:58:27 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 19:58:27 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 19:58:27 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 19:58:27 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 19:58:27 - INFO - "GET /rams HTTP/1.1" 200 2
+2021-12-08 20:21:37 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 20:21:37 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 20:21:37 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 20:21:37 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 20:21:37 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 20:21:37 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 20:21:37 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 20:21:37 - INFO - "GET /ram HTTP/1.1" 200 4943
+2021-12-08 20:22:13 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 20:22:13 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 20:22:13 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 20:22:13 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 20:22:13 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 20:22:13 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 20:22:13 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 20:22:13 - INFO - "POST /user/pc HTTP/1.1" 200 279
+2021-12-08 20:22:22 - ERROR - AttributeError in 0 on line 0
+2021-12-08 20:22:22 - ERROR - "GET /user/pc HTTP/1.1" 500 1054950
+2021-12-08 20:22:35 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 20:22:35 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 20:22:35 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 20:22:35 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 20:22:35 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 20:22:35 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 20:22:35 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 20:22:35 - INFO - "GET /user/pc HTTP/1.1" 200 679
+2021-12-08 20:35:38 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 20:35:38 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 20:35:38 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 20:35:38 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 20:35:38 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 20:35:38 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 20:35:38 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 20:39:15 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 20:39:15 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 20:39:15 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 20:39:15 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 20:39:15 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 20:39:15 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 20:39:15 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 20:39:15 - INFO - "GET /gpus HTTP/1.1" 200 2
+2021-12-08 20:55:43 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 20:55:43 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 20:55:43 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 20:55:43 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 20:55:43 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 20:55:43 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 20:55:43 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 21:41:38 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 21:41:38 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 21:41:38 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 21:41:38 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 21:41:38 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 21:41:38 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 21:41:38 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 21:41:38 - INFO - "GET /gpus HTTP/1.1" 200 5286
+2021-12-08 21:43:31 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 21:43:31 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 21:43:31 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 21:43:31 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 21:43:31 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 21:43:31 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 21:43:31 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 21:43:31 - INFO - "POST /user/pc HTTP/1.1" 200 289
+2021-12-08 21:43:31 - INFO - "GET /user/pc HTTP/1.1" 200 620
+2021-12-08 21:43:31 - INFO - "POST /user/pc HTTP/1.1" 200 289
+2021-12-08 21:43:31 - INFO - "GET /user/pc HTTP/1.1" 200 620
+2021-12-08 21:45:46 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 21:45:46 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 21:45:46 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 21:45:46 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 21:45:46 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 21:45:46 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 21:45:46 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 21:45:47 - ERROR - AttributeError in 0 on line 0
+2021-12-08 21:45:47 - ERROR - "GET /user/pc HTTP/1.1" 500 1055134
+2021-12-08 21:46:39 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 21:46:39 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 21:46:39 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 21:46:39 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 21:46:39 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 21:46:39 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 21:46:39 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 21:46:39 - INFO - "GET /user/pc HTTP/1.1" 200 1206
+2021-12-08 21:46:39 - INFO - "POST /user/pc HTTP/1.1" 200 285
+2021-12-08 21:46:39 - INFO - "GET /user/pc HTTP/1.1" 200 2410
+2021-12-08 21:50:30 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 21:50:30 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 21:50:30 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 21:50:30 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 21:50:30 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 21:50:30 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 21:50:30 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 21:55:59 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 21:55:59 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 21:55:59 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 21:55:59 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 21:55:59 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 21:55:59 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 21:55:59 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 21:55:59 - INFO - "GET /psus HTTP/1.1" 200 2
+2021-12-08 22:07:29 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 22:07:29 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 22:07:29 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 22:07:29 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 22:07:29 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 22:07:29 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 22:07:29 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 22:13:06 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 22:13:06 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 22:13:06 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 22:13:06 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 22:13:06 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 22:13:06 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 22:13:06 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 22:32:40 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 22:32:40 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 22:32:40 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 22:32:40 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 22:32:40 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 22:32:40 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 22:32:40 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 22:32:40 - INFO - "POST /user/pc HTTP/1.1" 200 282
+2021-12-08 22:32:40 - INFO - "GET /user/pc HTTP/1.1" 200 1394
+2021-12-08 22:35:38 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 22:35:38 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 22:35:38 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 22:35:38 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 22:35:38 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 22:35:38 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 22:35:38 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 22:39:02 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 22:39:02 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 22:39:02 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 22:39:02 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 22:39:02 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 22:39:02 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 22:39:02 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 22:39:02 - INFO - "GET /storages HTTP/1.1" 200 2
+2021-12-08 22:41:33 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 22:41:33 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 22:41:33 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 22:41:33 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 22:41:33 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 22:41:33 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 22:41:33 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 22:42:48 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 22:42:48 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 22:42:48 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 22:42:48 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 22:42:48 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 22:42:48 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 22:42:48 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 22:42:55 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 22:42:55 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 22:42:55 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 22:42:55 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 22:42:55 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 22:42:55 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 22:42:55 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 22:53:42 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-08 22:53:42 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-08 22:53:42 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-08 22:53:42 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-08 22:53:42 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-08 22:53:42 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-08 22:53:42 - WARNING - Python-dotenv could not parse statement starting at line 26
+2021-12-08 22:53:42 - INFO - "POST /pcs HTTP/1.1" 200 269
+2021-12-08 22:53:42 - INFO - "GET /pcs HTTP/1.1" 200 1588

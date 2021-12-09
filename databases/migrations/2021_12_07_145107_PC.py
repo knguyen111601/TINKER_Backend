@@ -23,7 +23,7 @@ class PC(Migration):
             table.foreign("motherboard_id").references("id").on("motherboards")
             
             # Cooler 
-            table.intger("cooler_id")
+            table.integer("cooler_id")
             table.foreign("cooler_id").references("id").on("coolers")
 
             # CPU
@@ -42,9 +42,14 @@ class PC(Migration):
             table.integer("psu_id")
             table.foreign("psu_id").references("id").on("psus")
 
+            # Storage
+            table.integer("storage_id")
+            table.foreign("storage_id").references("id").on("storage")
+
             #misc
             table.integer("misc_id")
             table.foreign("misc_id").references("id").on("miscs")
+
             
             # User
             ## Field to track which user created the item
