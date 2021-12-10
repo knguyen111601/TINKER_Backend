@@ -8,6 +8,8 @@ class PC(Migration):
         """
         Run the migrations.
         """
+        self.schema.drop_table("pcs")
+
         with self.schema.create("pcs") as table:
             table.increments("id")
             
@@ -73,7 +75,7 @@ class PC(Migration):
             # table.integer("user_id")
             # ## Defining the field as a foreign key
             # table.foreign("user_id").references("id").on("users")
-            # table.timestamps()
+            table.timestamps()
 
     def down(self):
         """
