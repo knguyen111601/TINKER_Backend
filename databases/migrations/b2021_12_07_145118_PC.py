@@ -69,6 +69,8 @@ class PC(Migration):
             table.integer("thirdmisc_id").default(12)
             table.foreign("thirdmisc_id").references("id").on("thirdmiscs")
 
+            # public / private
+            table.string("public")
             
             # User
             # Field to track which user created the item

@@ -1651,3 +1651,10 @@
 2021-12-10 19:04:36 - ERROR - "POST /pcs HTTP/1.1" 500 968994
 2021-12-10 19:05:52 - ERROR - ContainerError in 0 on line 0
 2021-12-10 19:05:52 - ERROR - "POST /pcs HTTP/1.1" 500 969124
+2021-12-10 20:23:46 - WARNING - Python-dotenv could not parse statement starting at line 19
+2021-12-10 20:23:46 - WARNING - Python-dotenv could not parse statement starting at line 21
+2021-12-10 20:23:46 - WARNING - Python-dotenv could not parse statement starting at line 22
+2021-12-10 20:23:46 - WARNING - Python-dotenv could not parse statement starting at line 23
+2021-12-10 20:23:46 - WARNING - Python-dotenv could not parse statement starting at line 24
+2021-12-10 20:23:46 - WARNING - Python-dotenv could not parse statement starting at line 25
+2021-12-10 20:23:46 - WARNING - Python-dotenv could not parse statement starting at line 26
