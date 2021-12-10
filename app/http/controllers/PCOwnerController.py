@@ -49,7 +49,7 @@ class PCOwnerController(Controller):
             "misc_id": misc_id,
             "secondmisc_id": secondmisc_id,
             "thirdmisc_id": thirdmisc_id,
-            "public": public
+            "public": public,
             "user_id": user["id"]
         })
         return pc
