@@ -21,9 +21,8 @@ class AuthController(Controller):
 
     def signup(self):
         username = self.request.input("username")
-        email = self.request.input("email")
         password = self.request.input("password")
-        result = self.auth.register({"username": username, "email": email, "password": password})
+        result = self.auth.register({"username": username, "password": password})
         return result
 
     def logout(self):
