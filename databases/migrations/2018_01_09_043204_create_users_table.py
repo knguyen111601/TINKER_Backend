@@ -7,6 +7,7 @@ class CreateUsersTable(Migration):
         self.schema.drop_table("users")
         with self.schema.create("users") as table:
             table.increments("id")
+            table.string("pfp")
             table.string("username").unique()
             table.string("password")
             table.string("remember_token").nullable()
