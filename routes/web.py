@@ -19,7 +19,7 @@ ROUTES = [
         Get("/@id", "PCOwnerController@show").name("show"),
         Put("/@id", "PCOwnerController@update").name("update"),
         Delete("/@id", "PCOwnerController@destroy").name("destroy")
-    ], prefix="/pcs", middleware=["auth"]),
+    ], prefix="/pcs", name="pcs"),
 
     # Case
     RouteGroup([
