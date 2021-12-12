@@ -34,7 +34,7 @@ class PCOwnerController(Controller):
         thirdmisc_id = self.request.input("thirdmisc_id")
         public = self.request.input("public")
         user = self.request.user()
-        print(user)
+        print("User", user)
         pc = PC.create({
             "pc_name": pc_name,
             "case_id": case_id,
@@ -53,7 +53,7 @@ class PCOwnerController(Controller):
             "public": public,
             "user_id": user["id"]
         })
-        print(pc)
+        print("PC", pc)
         return pc
 
     def show(self):
