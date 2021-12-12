@@ -72,11 +72,14 @@ class PC(Migration):
             # public / private
             table.string("public")
             
-            # User
-            # Field to track which user created the item
-            table.integer("user_id")
-            ## Defining the field as a foreign key
-            table.foreign("user_id").references("id").on("users")
+            # Username
+            table.string("username")
+
+            # # User
+            # # Field to track which user created the item
+            # table.integer("user_id")
+            # ## Defining the field as a foreign key
+            # table.foreign("user_id").references("id").on("users")
             table.timestamps()
 
     def down(self):
