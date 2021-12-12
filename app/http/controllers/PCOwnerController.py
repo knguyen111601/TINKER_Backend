@@ -68,7 +68,6 @@ class PCOwnerController(Controller):
         ex. Post target to update new Model
             Post().route("/update", PCOwnerController)
         """
-        user = self.request.user()
         id = self.request.param("id")
         pc_name = self.request.input("pc_name")
         case_id = self.request.input("case_id")
@@ -84,7 +83,8 @@ class PCOwnerController(Controller):
         misc_id = self.request.input("misc_id")
         secondmisc_id = self.request.input("secondmisc_id")
         thirdmisc_id = self.request.input("thirdmisc_id")
-        PC.where("id", id).where("user_id", user["id"]).update({
+        username = self.request.input("username")
+        PC.where("id", id).update({
             "pc_name": pc_name,
             "case_id": case_id,
             "motherboard_id": motherboard_id,
@@ -98,9 +98,10 @@ class PCOwnerController(Controller):
             "thirdstorage_id":thirdstorage_id,
             "misc_id": misc_id,
             "secondmisc_id": secondmisc_id,
-            "thirdmisc_id": thirdmisc_id
+            "thirdmisc_id": thirdmisc_id,
+            "username": username
         })
-        return PC.where("id", id).where("user_id", user["id"]).get()
+        return PC.where("id", id).get()
 
     def destroy(self):
         """Delete an existing resource listing
@@ -108,6 +109,6 @@ class PCOwnerController(Controller):
         """
         user = self.request.user()
         id = self.request.param("id")
-        pc = PC.where("id", id).where("user_id", user["id"])
-        PC.where("id", id).where("user_id", user["id"]).delete()
+        pc = PC.where("id", id)
+        PC.where("id", id).delete()
         return pc
